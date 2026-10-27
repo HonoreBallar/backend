@@ -63,7 +63,7 @@ Si l'API est indisponible, le frontend affiche le contenu de secours de `fronten
 ## Production
 
 Image Docker (`Dockerfile`) déployée sur Render avec `render.yaml` (base PostgreSQL + service web).
-Étapes complètes : [`../DEPLOIEMENT.md`](../DEPLOIEMENT.md).
+Étapes complètes : [`DEPLOIEMENT.md`](DEPLOIEMENT.md).
 
 - Restreindre `CORS_ALLOW_ORIGIN` au domaine du frontend.
 - Le conteneur écoute sur `$PORT` (fourni par Render) et applique les migrations à chaque démarrage.
